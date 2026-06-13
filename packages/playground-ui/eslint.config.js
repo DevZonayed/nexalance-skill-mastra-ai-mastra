@@ -1,7 +1,6 @@
 import { createConfig } from '@internal/lint/eslint';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import storybook from 'eslint-plugin-storybook';
-
 const reactHooks = (await import('eslint-plugin-react-hooks')).default;
 
 const config = await createConfig();
