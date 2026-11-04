@@ -42,7 +42,7 @@ importers:
         version: link:../../../memory
       ai:
         specifier: ^5.0.196
-        version: 5.0.197(zod@4.4.3)
+        version: 5.0.197(zod@4.6.6)
       mastra:
         specifier: link:../../../cli
         version: link:../../../cli
@@ -50,8 +50,8 @@ importers:
         specifier: ^2.14.6
         version: 2.14.6(@types/node@22.19.20)(typescript@5.9.3)
       zod:
-        specifier: ^4.4.3
-        version: 4.4.3
+        specifier: ^4.6.6
+        version: 4.6.6
     devDependencies:
       '@types/node':
         specifier: 22.19.20
@@ -321,24 +321,24 @@ packages:
     resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
-  '@ai-sdk/gateway@2.0.98(zod@4.4.3)':
+  '@ai-sdk/gateway@2.0.98(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 2.0.3
-      '@ai-sdk/provider-utils': 3.0.25(zod@4.4.3)
+      '@ai-sdk/provider-utils': 3.0.25(zod@4.6.6)
       '@vercel/oidc': 3.1.0
-      zod: 4.4.3
+      zod: 4.6.6
 
-  '@ai-sdk/provider-utils@3.0.25(zod@4.4.3)':
+  '@ai-sdk/provider-utils@3.0.25(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 2.0.3
       '@standard-schema/spec': 1.1.0
       eventsource-parser: 3.1.0
-      zod: 4.4.3
+      zod: 4.6.6
 
   '@ai-sdk/provider@2.0.3':
     dependencies:
@@ -407,13 +407,13 @@ snapshots:
 
   '@vercel/oidc@3.1.0': {}
 
-  ai@5.0.197(zod@4.4.3):
+  ai@5.0.197(zod@4.6.6):
     dependencies:
-      '@ai-sdk/gateway': 2.0.98(zod@4.4.3)
+      '@ai-sdk/gateway': 2.0.98(zod@4.6.6)
       '@ai-sdk/provider': 2.0.3
-      '@ai-sdk/provider-utils': 3.0.25(zod@4.4.3)
+      '@ai-sdk/provider-utils': 3.0.25(zod@4.6.6)
       '@opentelemetry/api': 1.9.0
-      zod: 4.4.3
+      zod: 4.6.6
 
   ansi-regex@5.0.1: {}
 
@@ -565,4 +565,4 @@ snapshots:
       y18n: 5.0.8
       yargs-parser: 21.1.1
 
-  zod@4.4.3: {}
+  zod@4.6.6: {}
